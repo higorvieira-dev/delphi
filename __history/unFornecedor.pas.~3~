@@ -1,0 +1,43 @@
+unit unFornecedor;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TFrmFornecedor = class(TForm)
+    Label1: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Label2: TLabel;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Label4: TLabel;
+    Edit5: TEdit;
+    Label5: TLabel;
+    Edit6: TEdit;
+    Label3: TLabel;
+    Label6: TLabel;
+    Edit7: TEdit;
+    Label7: TLabel;
+    Edit8: TEdit;
+    Label8: TLabel;
+    BtnInserir: TBitBtn;
+    BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmFornecedor: TFrmFornecedor;
+
+implementation
+
+{$R *.dfm}
+
+end.

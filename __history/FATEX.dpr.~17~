@@ -1,0 +1,20 @@
+program FATEX;
+
+uses
+  Vcl.Forms,
+  unPrincipal in 'unPrincipal.pas' {FrmPrincipal},
+  unCliente in 'unCliente.pas' {FrmClientes},
+  unFuncionario in 'unFuncionario.pas' {FrmFuncionario},
+  unCargo in 'unCargo.pas' {FrmCargo};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.CreateForm(TFrmClientes, FrmClientes);
+  Application.CreateForm(TFrmFuncionario, FrmFuncionario);
+  Application.CreateForm(TFrmCargo, FrmCargo);
+  Application.Run;
+end.

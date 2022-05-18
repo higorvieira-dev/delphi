@@ -1,0 +1,47 @@
+unit unFornecedor;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TFrmFornecedor = class(TForm)
+    StaticText1: TStaticText;
+    EdId: TEdit;
+    EdRazao: TEdit;
+    Edit1: TEdit;
+    EdSocial: TEdit;
+    Edit2: TEdit;
+    EdFantasia: TEdit;
+    CheckBox1: TCheckBox;
+    CheckBox2: TCheckBox;
+    Label7: TLabel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label5: TLabel;
+    Label3: TLabel;
+    Label6: TLabel;
+    Label4: TLabel;
+    Edit3: TEdit;
+    Label8: TLabel;
+    Edit4: TEdit;
+    Label9: TLabel;
+    BtnInserir: TBitBtn;
+    BtnSalvar: TBitBtn;
+    BtnCancelar: TBitBtn;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmFornecedor: TFrmFornecedor;
+
+implementation
+
+{$R *.dfm}
+
+end.

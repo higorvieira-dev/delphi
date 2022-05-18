@@ -1,0 +1,274 @@
+object FrmFornecedor: TFrmFornecedor
+  Left = 0
+  Top = 0
+  Caption = 'CADASTRO DE FORNECEDOR'
+  ClientHeight = 578
+  ClientWidth = 975
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 15
+  object Label7: TLabel
+    Left = 424
+    Top = 300
+    Width = 147
+    Height = 17
+    Caption = 'SITUA'#199#195'O FORNECEDOR'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 24
+    Top = 97
+    Width = 12
+    Height = 17
+    Caption = 'ID'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 169
+    Width = 87
+    Height = 17
+    Caption = 'RAZ'#195'O SOCIAL'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 424
+    Top = 169
+    Width = 29
+    Height = 17
+    Caption = 'CNPJ'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Top = 233
+    Width = 98
+    Height = 17
+    Caption = 'NOME FANTASIA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 424
+    Top = 233
+    Width = 129
+    Height = 17
+    Caption = 'INSCRI'#199#195'O ESTADUAL'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 24
+    Top = 297
+    Width = 98
+    Height = 17
+    Caption = 'NOME FANTASIA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 664
+    Top = 169
+    Width = 47
+    Height = 17
+    Caption = 'ESTADO'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 664
+    Top = 233
+    Width = 25
+    Height = 17
+    Caption = 'RUA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object StaticText1: TStaticText
+    Left = 424
+    Top = 40
+    Width = 190
+    Height = 20
+    Align = alCustom
+    Caption = 'CADASTRO DE FORNECEDOR'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object EdId: TEdit
+    Left = 24
+    Top = 120
+    Width = 33
+    Height = 23
+    TabOrder = 1
+  end
+  object EdRazao: TEdit
+    Left = 24
+    Top = 192
+    Width = 353
+    Height = 23
+    TabOrder = 2
+  end
+  object Edit1: TEdit
+    Left = 424
+    Top = 192
+    Width = 200
+    Height = 23
+    TabOrder = 3
+  end
+  object EdSocial: TEdit
+    Left = 24
+    Top = 256
+    Width = 353
+    Height = 23
+    TabOrder = 4
+  end
+  object Edit2: TEdit
+    Left = 424
+    Top = 256
+    Width = 200
+    Height = 23
+    TabOrder = 5
+  end
+  object EdFantasia: TEdit
+    Left = 24
+    Top = 320
+    Width = 353
+    Height = 23
+    TabOrder = 6
+  end
+  object CheckBox1: TCheckBox
+    Left = 424
+    Top = 323
+    Width = 67
+    Height = 17
+    Caption = 'ATIVO'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+  end
+  object CheckBox2: TCheckBox
+    Left = 547
+    Top = 323
+    Width = 77
+    Height = 17
+    Caption = 'INATIVO'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Edit3: TEdit
+    Left = 664
+    Top = 192
+    Width = 289
+    Height = 23
+    TabOrder = 9
+  end
+  object Edit4: TEdit
+    Left = 664
+    Top = 256
+    Width = 289
+    Height = 23
+    TabOrder = 10
+  end
+  object BtnInserir: TBitBtn
+    Left = 256
+    Top = 430
+    Width = 105
+    Height = 48
+    Caption = 'INSERIR'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 11
+  end
+  object BtnSalvar: TBitBtn
+    Left = 448
+    Top = 430
+    Width = 105
+    Height = 48
+    Caption = 'SALVAR'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 12
+  end
+  object BtnCancelar: TBitBtn
+    Left = 640
+    Top = 430
+    Width = 105
+    Height = 48
+    Caption = 'CANCELAR'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 13
+  end
+end

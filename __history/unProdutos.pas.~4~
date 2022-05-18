@@ -1,0 +1,56 @@
+unit unProdutos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Menus;
+
+type
+  TFrmProduto = class(TForm)
+    Label1: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Label2: TLabel;
+    Edit3: TEdit;
+    Label3: TLabel;
+    Edit4: TEdit;
+    Label4: TLabel;
+    Edit5: TEdit;
+    Edit6: TEdit;
+    Edit7: TEdit;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Edit8: TEdit;
+    Label8: TLabel;
+    Edit9: TEdit;
+    Label9: TLabel;
+    Edit10: TEdit;
+    Label10: TLabel;
+    Edit11: TEdit;
+    Label11: TLabel;
+    Edit12: TEdit;
+    Label12: TLabel;
+    ATIVO: TComboBox;
+    Label13: TLabel;
+    StaticText1: TStaticText;
+    MainMenu1: TMainMenu;
+    CADASTRO1: TMenuItem;
+    DADOSADICIONAIS1: TMenuItem;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmProduto: TFrmProduto;
+
+implementation
+
+{$R *.dfm}
+
+
+
+end.
